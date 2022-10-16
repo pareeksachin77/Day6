@@ -10,7 +10,8 @@ namespace Day6
     {
         public static void pn()
         {
-            int n = 100;
+            Console.WriteLine("Enter a number");
+            int n = Convert.ToInt32(Console.ReadLine());
             int x = 0;
             int i;
             for(i= 1; i < n; i++)
@@ -20,7 +21,16 @@ namespace Day6
                     x += i;
                 }
             }
-            Console.WriteLine(x);
+
+            
+            if (n == x)
+            {
+                Console.WriteLine("number is perfoect number");
+            }
+            else
+            {
+                Console.WriteLine("number is not perfect number");
+            }
         }
     }
 }

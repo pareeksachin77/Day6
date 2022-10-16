@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace Day6
 {
-    internal class reversenumber {
+    public class reversenumber {
 
         public static void reverse1()
         {
-            Console.WriteLine("Enter Any Positive Number");
+            Console.WriteLine("Enter Any  Number");
             int num = Convert.ToInt32(Console.ReadLine());
             int temp = 0;
             int revnum = 0;

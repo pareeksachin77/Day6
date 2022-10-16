@@ -12,7 +12,7 @@ namespace Day6
         {   
             int Flag = 0;
             int i;
-            Console.WriteLine("Please Enter Any Positive Number");
+            Console.WriteLine("Please Enter Any  Number");
             int n = Convert.ToInt32(Console.ReadLine());
             if(n==1 || n == 0)
             {

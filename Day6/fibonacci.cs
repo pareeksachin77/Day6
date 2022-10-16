@@ -26,7 +26,11 @@ namespace Day6;
         public static void f2()
         {
             int n = 9;
-            Console.WriteLine(Fib(n));
+        for (int i = 0; i <= n; i++)
+        {
+            // Function call
+            Console.Write(Fib(i) + " ");
+        }
         }
     }
 
